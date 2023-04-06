@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Python documentation</title>
+    <link rel='stylesheet' href='style.css'>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='description' content='Python tutorial'>
+  </head>
+  <body>
+    <nav id='navbar'>
+      <header>Python Documentation</header>
+      <ul>
+        <li><a href='#Introduction' class='nav-link'>Introduction</a></li>
+        <li><a href='#Why_learn_Python' class='nav-link'>Why learn Python</a></li>
+        <li><a href='#Hello_world' class='nav-link'>Hello world</a></li>
+        <li><a href='#Variables' class='nav-link'>Variables</a></li>
+        <li><a href='#Declaring_variables' class='nav-link'>Declaring variables</a></li>
+        <li><a href='#Data_types' class='nav-link'>Data types</a></li>
+        <li><a href='#Input' class='nav-link'>Input</a></li>
+        <li><a href='#If...else_statement' class='nav-link'>If...else_statement</a></li>
+        <li><a href='#While_loop' class='nav-link'>While loop</a></li>
+        <li><a href='#For_loop' class='nav-link'>For loop</a></li>
+        <li><a href='#Reference' class='nav-link'>Reference</a></li>
+      </ul>
+    </nav>
+    <main id='main-doc'>
+      <section class='main-section' id='Introduction'>
+        <header>Introduction</header>
+        <article>
+          <p>Python is a high-level, general-purpose programming language used for the following</p>
+          <ul>
+            <li>Web development,</li>
+            <li>Software development,</li>
+            <li>Data analysis and Data science,</li>
+            <li>Automate task,</li>
+            <li>Robotics,</li>
+            <li>Machine learning.</li>
+          </ul>
+          <p>Python was created by Galdo van Rossum,and it was released in 1991.It consist of 2 versions python2 and python3 where python 3 is the main version used these days due to it having better syntaxes than python 2</p>
+          <p>It was designed for readability and has some similarities to English language. It uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses. Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</p>
+          <p>One of the best things about Python is that it can be written in somany Intergrated development environment(IDEs) some of which are</p>
+          <ul>
+            <li>VS-code,</li>
+            <li>Pycharm,</li>
+            <li>Anaconda,</li>
+            <li>Jupyter notebooks,</li>
+            <li>Its own installed IDE.</li>
+          </ul>
+          <p>Generally python will be the very first programing language i would recommend to any body that wishes to start programming.</p>
+          <p>Make sure python is already installed on your device. if not, you can download it <a href='https://www.python.org/downloads/'>here</a></p>
+        </article>
+      </section>
+      
+      <section class='main-section' id='Why_learn_Python'>
+        <header>Why learn Python</header>
+        <article>
+          <ul>
+            <li>It works on different operating systems such as <strong>windows</strong>, <strong>linux</strong>, <strong>mac-os</strong>, etc</li>
+            <li>Its syntax is simple and similar to English language.</li>
+            <li>Python has syntax that allow developers to write programs in fewer lines of code as compared to other programing languages.</li>
+            <li>It can handle complex mathematics.</li>
+            <li>It is an interpreter meaning its code can be exercuted as soon as it is written.</li>
+          </ul>
+        </article>
+      </section>
+      
+      <section class='main-section' id='Hello_world'>
+        <header>Hello world</header>
+        <article>
+          <p>Now that you know the general concept and suppose you have already installed the python software it time to say <strong>Hello to the world</strong></p>
+          <code>print('Hello word')
+          </code>
+          <p>The above code will output the world <em><strong>Hello world</strong></em>. You can try that in any environment you are using. <em>print</em> is a function used to output a code on the screen.</p>
+        </article>
+      </section>
+      
+      <section class='main-section' id='Variables'>
+        <header>Variables</header>
+        <article>
+          <p>A variable is any name given to a storage location which can be used to store values of any data type.Exampes of such data type can be <em>Intergers</em>,<em>Floats</em>,<em>Booleans</em>, etc.</p>
+          <p><strong>Note:</strong> A variable can only have a single value.</p>
+        </article>
+      </section>
+      
+      <section class='main-section' id='Declaring_variables'>
+        <header>Declaring variables</header>
+        <article>
+          <p>Below is an example of how to declare a variable in python</p>
+          <code>x=1</code>
+          <p>The above says store 1 in the variable x. The variable can be given any name of your choice. to print the above variabe use;</p>
+          <code>print(x)</code>
+          <p><strong>Output: </strong>1</p>
+          <p>Notice that there are no quotes placed in the print statement. if you use <em>print('x')</em>, it will ouput the letter x not what is found in x. take note of this.</p>
+        </article>
+      </section>
+      
+      <section class='main-section' id='Data_types'>
+        <header>Data types</header>
+        <article>
+          <p>Some few steps ahead, we talked about some examples of data types. In this section, we will talk more about the varous data types a value can have and can be used in python.</p>
+          <p>Data types are used to define a type of variable. That is, what type of data can be stored in a variable. These data types could be <em>intergers, floats,</em>etc. Below are some data types and their examples.</p>
+          <ul>
+            <li><strong>string(str): </strong>"How are you"</li>
+            <li><strong>interger(int): </strong>1</li>
+            <li><strong>float: </strong>1.0</li>
+            <li><strong>Boolean(bool): </strong>True or False</li>
+            <li><strong>None: </strong>x='None', does not have a datatype</li>
+          </ul>
+          <p>To know more about python data types, you can use this <a href='https://www.tutorialspoint.com/python/python_data_types.htm#:~:text=Python%20Data%20Types%20are%20used,is%20stored%20as%20alphanumeric%20characters.'>link</a></p>
+        </article>
+      </section>
+      
+      <section class='main-section' id='Input'>
+        <header>Input</header>
+        <article>
+          <p>A few sections ahead, we talked about the <em>print function</em> which is an output function.Now image you want something from a particular person to perform a certain calculation lets say you need the person age to know the year he was born this is when an input statement comes in. </p>
+          <p>In python, in other to get something from any one who is using your code, you need an <strong>input function</strong> written in the following syntax;</p>
+          <code>x=input('what you want to ask the user: ')</code>
+          <p>Notice that the input function is assigned to a variable x. This is to get the information of that person an store so that it can be used later in the code. By default, input functions have a datatype of <em>string(str)</em>. But what if we want a number from a user to perform a certain operation? This were <strong>type casting</strong> makes its place</p>
+          <h4>What is type casting</h4>
+          <p>This is the process of converting from one data type to another. <em>Note that not all strings can be converted into intergers, but all intergers can be converted into strings</em>. Lets look at the code below</p>
+          <code>x=int(input('enter your age: '))</code>
+          <p>The above code will work if the value you entered is an interger. But imagine if you entered a latter automaticatly your code carshes and tells you that the data type cannot be converted.</p>
+        </article>
+      </section>
+      <section class='main-section' id='If...else_statement'>
+        <header>If...else statement</header>
+        <article>
+          <p>An if...else statment is a logical condition that checks to see if a person follows a certain rule for if to be exercuted.</p>
+          <p><strong>Example: </strong>imagine if you want to host a contest for people of a certain age(18+) you will need to check if the person registering is of the required age. If the person is 18+, he is free to enter but if not then the person needs to go home. this example can be written in python code as follows; </p>
+          <code>age=int('enter age: ')
+          if age >=18:
+            print("Enter the contest")
+          else:
+            print("sorry you are under the required age.")
+          </code>  
+          <p>Lets say you want to add another section for kids of a particular age range in your contest, you'll, this is when we use the <strong>elif</strong> condition. Lets look at how this is done </p>
+          <code>age=int('enter age: ')
+          if age >=18:
+            print("Enter the contest")
+          elif age>=17 and age<18:
+            print("go to the kids section")
+          else:
+            print("sorry you are under the required age.")
+          </code>
+        </article>
+      </section>
+      <section class='main-section' id='While_loop'>
+        <header>while loop</header>
+        <article>
+          <p>A loop is like a person that keeps working around in circles.A while loop is a loop that keeps repeating itself untill a it a particular condition is false.</p>
+          <code>x=10
+            while x!=0:
+             print(x)
+             x=x-1
+          </code>
+          <p>if you look clearly, the above code prints from 10 down to 1. The loop will stop working only when the condition <em>x!=0</em> is false.Loops can also be infinite(meaning it does not end). Below is an example;</p>
+          <code>While True:
+              print(x)
+          </code>
+          <p>this code will print the value inside x forever.pyhton loops works with 2 statements which are the <strong>Break</strong> and <strong>continue</strong></p>
+          <p>The <strong>Break statement</strong> exits the loop completely while the <strong>continue statement </strong>moves back to the to of the loop. You can kon more about python loops <a href='https://www.w3schools.com/python/python_while_loops.asp'>here</a>.</p>
+        </article>
+      </section>
+      <section class='main-section'id='For_loop'>
+        <header>For loop</header>
+        <article>
+          <p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+
+This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.
+
+With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</p>
+          <code>fruits = ["apple", "banana", "cherry"]
+            for x in fruits:
+              print(x)
+          </code>
+          <p>This code prints each fruit individually.</p>
+        </article>
+      </section>
+      <section class='main-section' id='Reference'>
+        <header>Reference</header>
+        <article>
+          <p>You can learn more on python using this <a href='https://www.w3schools.com/python/default.asp'>link</a></p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
+  
